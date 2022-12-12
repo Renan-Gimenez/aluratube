@@ -141,6 +141,11 @@
       "name": "name fav 2",
       "image": "image fav 2",
       "url": "url fav 2"
+    },
+    {
+      "name": "name fav 3",
+      "image": "image fav 3",
+      "url": "url fav 3"
     }
   ]
 }
