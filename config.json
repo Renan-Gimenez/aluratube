@@ -134,6 +134,33 @@
         "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
         "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
       }
+    ],
+    "músicas": [
+      {
+        "title": "Lana Del Rey - Born To Die",
+        "url": "https://www.youtube.com/watch?v=Bag1gUxuU0g",
+        "thumb": "https://img.youtube.com/vi/Bag1gUxuU0g/hqdefault.jpg"
+      },
+      {
+        "title": "Skank - Sutilmente (Clipe Oficial)",
+        "url": "https://www.youtube.com/watch?v=v3SQTOZO36E",
+        "thumb": "https://img.youtube.com/vi/v3SQTOZO36E/hqdefault.jpg"
+      },
+      {
+        "title": "Vibe to That",
+        "url": "https://www.youtube.com/watch?v=qoZTtTPYkJo",
+        "thumb": "https://img.youtube.com/vi/qoZTtTPYkJo/hqdefault.jpg"
+      },
+      {
+        "title": "XXXTENTACION - Revenge (Audio)",
+        "url": "https://www.youtube.com/watch?v=CD_tD26E7k0",
+        "thumb": "https://img.youtube.com/vi/CD_tD26E7k0/hqdefault.jpg"
+      },
+      {
+        "title": "XXXTENTACION - BAD! (Official Music Video)",
+        "url": "https://www.youtube.com/watch?v=gVqcUi9tpCw",
+        "thumb": "https://img.youtube.com/vi/gVqcUi9tpCw/hqdefault.jpg"
+      }
     ]
   },
   "fav": [
