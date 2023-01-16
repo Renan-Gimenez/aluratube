@@ -4,7 +4,6 @@ import styled from "styled-components";
 import config from "../config.json";
 import Menu from "../src/components/Menu/Menu";
 
-import { CSSReset } from "../src/components/CSSReset";
 import { StyledTimeline } from "../src/components/Timeline";
 
 export default function HomePage() {
@@ -12,7 +11,6 @@ export default function HomePage() {
 
   return (
     <>
-      <CSSReset />
       <div>
         {/* Prop Drilling */}
         <Menu
@@ -31,6 +29,8 @@ export default function HomePage() {
 }
 
 const StyledHeader = styled.div`
+  background-color: ${({ theme }) => theme.backgoundLevel1};
+
   img {
     width: 80px;
     height: 80px;
