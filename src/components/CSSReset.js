@@ -25,6 +25,7 @@ export const CSSReset = createGlobalStyle`
   #__next {
     display: flex;
     flex: 1;
+    overflow-x: hidden;
   }
   /* Globals */
   button,
