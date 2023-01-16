@@ -17,6 +17,7 @@ export const StyledTimeline = styled.div`
     width: 100%;
     max-width: 210px;
     height: auto;
+    border-radius: 10px;
   }
   section {
     width: 100%;
@@ -32,6 +33,13 @@ export const StyledTimeline = styled.div`
       grid-auto-columns: minmax(200px, 1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
+      ::-webkit-scrollbar{
+        background-color: transparent;
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: ${({ theme }) => theme.backgroundLevel2};
+        border-radius: 10px;
+      }
       a {
         scroll-snap-align: start;
         span {
