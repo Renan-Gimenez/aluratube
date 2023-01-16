@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { GoSearch } from "react-icons/go";
 
 const StyledSearch = styled.div`
     display: flex;
@@ -16,7 +17,7 @@ const StyledSearch = styled.div`
         border: none;
         outline: none;
         color: ${({ theme }) => theme.textColorBase};
-        background-color: ${( theme ) => theme.backgroundBase};
+        background-color: ${({ theme }) => theme.backgroundBase};
     }
 
     button {
@@ -45,7 +46,7 @@ export default function Search({ valorDoFiltro, setValorDoFiltro }) {
                 setValorDaBusca(e.target.value);
             }} value={valorDaBusca}/>
             <button>
-                O
+                <GoSearch style={{fill: "white"}} />
             </button>
         </StyledSearch>
     );
