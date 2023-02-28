@@ -9,7 +9,7 @@ const StyledMenu = styled.header`
   height: 56px;
   justify-content: space-between;
   background-color: ${({ theme }) => theme.backgroundLevel1 || "#FFFFFF"};
-  border: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
+  border-bottom: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
   align-items: center;
   padding: 0 16px;
   gap: 16px;
