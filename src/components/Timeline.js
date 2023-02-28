@@ -33,13 +33,13 @@ export const StyledTimeline = styled.div`
       grid-auto-columns: minmax(200px, 1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
-      ::-webkit-scrollbar{
+      /* ::-webkit-scrollbar{
         background-color: transparent;
       }
       ::-webkit-scrollbar-thumb{
         background-color: ${({ theme }) => theme.backgroundLevel2};
         border-radius: 10px;
-      }
+      } */
       a {
         scroll-snap-align: start;
         span {
