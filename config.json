@@ -45,6 +45,43 @@
         "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
       }
     ],
+    "gameDev": [
+      {
+        "title": "How To Program A Gun In Unity! - Programming Tutorial",
+        "url": "https://www.youtube.com/watch?v=om-SS-CBZ8g",
+        "thumb": "https://img.youtube.com/vi/om-SS-CBZ8g/hqdefault.jpg"
+      },
+      {
+        "title": "The secret to how to make your game look good in Unity",
+        "url": "https://www.youtube.com/watch?v=yQMywArQfyY",
+        "thumb": "https://img.youtube.com/vi/yQMywArQfyY/hqdefault.jpg"
+      },
+      {
+        "title": "Modular FPS Multiplayer Complete Project Free Download | Unity 3D",
+        "url": "https://www.youtube.com/watch?v=Iu3yvsZGUU4",
+        "thumb": "https://img.youtube.com/vi/Iu3yvsZGUU4/hqdefault.jpg"
+      },
+      {
+        "title": "He said I Couldn't Make a Multiplayer Survival Game... So I Made One",
+        "url": "https://www.youtube.com/watch?v=GWc7QppCPHM",
+        "thumb": "https://img.youtube.com/vi/GWc7QppCPHM/hqdefault.jpg"
+      },
+      {
+        "title": "I Made My DREAM FPS Game!",
+        "url": "https://www.youtube.com/watch?v=M_UPj2j6gvU",
+        "thumb": "https://img.youtube.com/vi/M_UPj2j6gvU/hqdefault.jpg"
+      },
+      {
+        "title": "why is everything flat in video games?",
+        "url": "https://www.youtube.com/watch?v=r0vwaqVF_V8",
+        "thumb": "https://img.youtube.com/vi/r0vwaqVF_V8/hqdefault.jpg"
+      },
+      {
+        "title": "fiz um jogo do meu quarto em 3d",
+        "url": "https://www.youtube.com/watch?v=JAB4xSnG4SE",
+        "thumb": "https://img.youtube.com/vi/JAB4xSnG4SE/hqdefault.jpg"
+      }
+    ],
     "front-end": [
       {
         "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
