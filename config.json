@@ -252,23 +252,18 @@
   "fav": [
     {
       "name": "name fav 1",
-      "image": "image fav 1 ",
+      "image": "https://github.com/renan-gimenez.png",
       "url": "url fav 1"
     },
     {
       "name": "name fav 2",
-      "image": "image fav 2",
+      "image": "https://github.com/renan-gimenez.png",
       "url": "url fav 2"
     },
     {
       "name": "name fav 3",
-      "image": "image fav 3",
+      "image": "https://github.com/renan-gimenez.png",
       "url": "url fav 3"
-    },
-    {
-      "name": "name fav 4",
-      "image": "image fav 4",
-      "url": "url fav 4"
     }
   ]
 }
