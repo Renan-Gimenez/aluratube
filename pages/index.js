@@ -104,7 +104,7 @@ function Timeline({ searchValue, ...props }) {
         })}
       </StyledTimeline>
       <section style={{display: "flex", flexDirection: "column", padding: "32px", gap: "16px"}}>
-        <h2>Aluratubers</h2>
+        <h3>Aluratubers</h3>
         <section style={{display: "flex"}}>
           {config.fav.Aluratubers.map((tubers) => {
             return (
