@@ -249,21 +249,28 @@
       }
     ]
   },
-  "fav": [
-    {
-      "name": "name fav 1",
-      "image": "https://github.com/renan-gimenez.png",
-      "url": "url fav 1"
-    },
-    {
-      "name": "name fav 2",
-      "image": "https://github.com/renan-gimenez.png",
-      "url": "url fav 2"
-    },
-    {
-      "name": "name fav 3",
-      "image": "https://github.com/renan-gimenez.png",
-      "url": "url fav 3"
-    }
-  ]
+  "fav": {
+    "Aluratubers": [
+      {
+        "name": "Filipe Deschamps",
+        "image": "https://yt3.googleusercontent.com/ytc/AL5GRJWKw7sAZ2tWdYDJxOzZscl0hyknfssSXReH0AS_=s176-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/@FilipeDeschamps"
+      },
+      {
+        "name": "Lucas Montano",
+        "image": "https://yt3.ggpht.com/z0Ccoolotr1Q4F2EaCIgaR4GWLAR_VCwP25QrTica_e9XV6x8-kuQx_qnqI1mnaOkYl6KkIL=s176-c-k-c0x00ffffff-no-rj-mo",
+        "url": "https://www.youtube.com/@LucasMontano"
+      },
+      {
+        "name": "Gigaton Games",
+        "image": "https://yt3.googleusercontent.com/ytc/AL5GRJWiwxhJf46-0TSW2alonUtE_BIsCGoSKw6KXtHbzg=s176-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/@gigatongames"
+      },
+      {
+        "name": "Gameplayrj",
+        "image": "https://yt3.googleusercontent.com/3h505yEqcDVWmZQAFZoHTHl8OooETXsgRdE0MN_3HpD0DZa9MYfqo-akwfJ7Ysio7t7wLVLfEw=s176-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/@gameplayrj"
+      }
+    ]
+  }
 }
