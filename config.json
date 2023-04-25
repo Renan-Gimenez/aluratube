@@ -88,7 +88,21 @@
       }
     ],
     "Produtividade": [
-      
+      {
+        "title": "Não desperdice sua vida",
+        "url": "https://youtube.com/watch?v=RakvhqSPaBE",
+        "thumb": "https://img.youtube.com/vi/RakvhqSPaBE/hqdefault.jpg"
+      },
+      {
+        "title": "10 CONSELHOS QUE EU DARIA PRA MIM MESMO QUANDO INICIEI NOS ESTUDOS",
+        "url": "https://youtube.com/watch?v=5X4guzGb634",
+        "thumb": "https://img.youtube.com/vi/5X4guzGb634/hqdefault.jpg"
+      },
+      {
+        "title": "COMO TER CONSTÂNCIA NOS ESTUDOS | AS 7 DICAS FUNDAMENTAIS",
+        "url": "https://youtube.com/watch?v=SvdvpiGzoW8",
+        "thumb": "https://img.youtube.com/vi/SvdvpiGzoW8/hqdefault.jpg"
+      }
     ],
     "front-end": [
       {
