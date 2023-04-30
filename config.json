@@ -121,18 +121,6 @@
         "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
       }
     ],
-    "back-end": [
-      {
-        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-        "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
-        "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
-      },
-      {
-        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-        "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
-        "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
-      }
-    ],
     "músicas": [
       {
         "title": "Mockingbird",
