@@ -32,11 +32,11 @@ export default function RegisterVideo() {
                 +
             </button>
             {formVisivel && (
-                <form onSubmit={
-                    (e) => e.preventDefault();
+                <form onSubmit={(e) => {
+                    e.preventDefault();
                     setFormVisivel(false);
                     formCadastro.clearForm();
-                }>
+                }}>
                     <div>
                         <button className="close-modal" onClick={() => setFormVisivel(false)} >
                             X
