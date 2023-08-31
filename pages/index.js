@@ -48,10 +48,10 @@ const StyledHeader = styled.div`
 `;
 
 const StyledBanner = styled.div`
-    margin-top: 50px;
-    height: 230px;
-    background-position: center;
-    background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  margin-top: 50px;
+  height: 230px;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 `;
 
 function Header() {
@@ -103,13 +103,31 @@ function Timeline({ searchValue, ...props }) {
           );
         })}
       </StyledTimeline>
-      <section style={{display: "flex", flexDirection: "column", padding: "32px", gap: "16px"}}>
+      <section
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          padding: "32px",
+          gap: "16px",
+        }}
+      >
         <h3>Aluratubers</h3>
-        <section style={{display: "flex", justifyContent: "center", gap: "32px", flexWrap: "wrap"}}>
+        <section
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "32px",
+            flexWrap: "wrap",
+          }}
+        >
           {config.fav.Aluratubers.map((tubers) => {
             return (
               <>
-                <Aluratubers name={tubers.name} image={tubers.image} url={tubers.url} />
+                <Aluratubers
+                  name={tubers.name}
+                  image={tubers.image}
+                  url={tubers.url}
+                />
               </>
             );
           })}
