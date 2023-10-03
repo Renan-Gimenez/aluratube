@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import config from "../config.json";
@@ -6,9 +6,44 @@ import Menu from "../src/components/Menu/Menu";
 import Aluratubers from "../src/components/Menu/components/Alutarubers";
 
 import { StyledTimeline } from "../src/components/Timeline";
+import { createClient } from "@supabase/supabase-js";
+
+const PROJECT_URL = "https://uidvmjolmjaclnengenj.supabase.co";
+const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVpZHZtam9sbWphY2xuZW5nZW5qIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTYxMTM2NTUsImV4cCI6MjAxMTY4OTY1NX0.LKR5jvF38K0CTmS6sPepz_kin9MxE9HW_w-4Nlt4DNQ";
+const supabase = createClient(PROJECT_URL, API_KEY);
 
 export default function HomePage() {
   const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+  const [playlists, setPlaylists] = useState({});
+  // config.playlists
+  // const playlists = {
+  //   "jogos": [],
+  // }
+
+  async function deleteItem() {
+    const item = await supabase.from('video').delete().eq('id', '2');
+  }
+
+  useEffect(() => {
+    console.log("use effect");
+
+    supabase.from("video").select("*")
+    .then((data) => {
+      console.log(data.data);
+      // Forma imutavel
+      const novaPlaylists = {...playlists}
+      data.data.forEach((video) => {
+        if (!novaPlaylists[video.playlist]) {
+          novaPlaylists[video.playlist] = [];
+        }
+        novaPlaylists[video.playlist]?.push(video);
+      });
+      setPlaylists(novaPlaylists);
+      // supabase.from('video').delete().eq('id', '3');
+
+      deleteItem();
+    })
+  }, [])
 
   return (
     <>
@@ -21,7 +56,7 @@ export default function HomePage() {
         <Header />
         <Timeline
           searchValue={valorDoFiltro}
-          playlists={config.playlists}
+          playlists={playlists}
           fav={config.fav}
         />
       </div>
